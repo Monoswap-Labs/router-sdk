@@ -1,0 +1,45 @@
+{
+  "name": "@monoswap-labs/router-sdk",
+  "version": "0.0.1",
+  "description": "An sdk for routing swaps using Monoswap v2 and Monoswap v3.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "tsdx test",
+    "build": "tsdx build",
+    "start": "tsdx watch",
+    "prepublishOnly": "tsdx build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Monoswap-Labs/router-sdk.git"
+  },
+  "keywords": [
+    "monoswap",
+    "ethereum"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/abi": "^5.5.0",
+    "@monoswap-labs/sdk-core": "0.0.1",
+    "@uniswap/swap-router-contracts": "^1.1.0",
+    "@monoswap-labs/v2-sdk": "0.0.1",
+    "@monoswap-labs/v3-sdk": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "prettier": "^2.4.1",
+    "tsdx": "^0.14.1"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true
+  }
+}
