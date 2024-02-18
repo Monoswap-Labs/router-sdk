@@ -1,7 +1,7 @@
 {
-  "name": "@uniswap/router-sdk",
-  "version": "1.8.0",
-  "description": "An sdk for routing swaps using Uniswap v2 and Uniswap v3.",
+  "name": "@monoswap-labs/router-sdk",
+  "version": "3.0.0",
+  "description": "An sdk for routing swaps using Monoswap v2 and Monoswap v3.",
   "publishConfig": {
     "access": "public"
   },
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/router-sdk.git"
+    "url": "https://github.com/monoswap-labs/router-sdk.git"
   },
   "keywords": [
     "uniswap",
@@ -27,10 +27,10 @@
   "license": "MIT",
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
-    "@uniswap/sdk-core": "^4.0.7",
+    "@monoswap-labs/sdk-core": "^3.0.0",
     "@uniswap/swap-router-contracts": "^1.1.0",
-    "@uniswap/v2-sdk": "^4.1.0",
-    "@uniswap/v3-sdk": "^3.10.1"
+    "@monoswap-labs/v2-sdk": "^3.0.1",
+    "@monoswap-labs/v3-sdk": "^3.0.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
