@@ -1307,10 +1307,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@monoswap-labs/sdk-core@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@monoswap-labs/sdk-core/-/sdk-core-3.0.0.tgz#e4b5d550f381e7df3a60646e8ca30827f0853d5c"
-  integrity sha512-6ZHDdPPcmcAOovM+RqogGurIWYqyG3zFckerZ3uulWnMNADmbXBQXL7tu5TTVv+/ylAL092unGRriX2XpiW/7Q==
+"@monoswap-labs/sdk-core@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@monoswap-labs/sdk-core/-/sdk-core-4.0.0.tgz#255522b6ea4b1a9e169a5c2ef6f4218d3ccf9f95"
+  integrity sha512-qxtGxjfyIoITyjPdJ7C3MrnToL1R0NpsFDG7lHj1DI7pMoFClxaXtFIo6Uy5zyZQWd0VH12meB8btfah3oagUg==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1319,25 +1319,25 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@monoswap-labs/v2-sdk@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@monoswap-labs/v2-sdk/-/v2-sdk-3.0.1.tgz#fd45b67f672ef762e169e7bd4865f0d73607248a"
-  integrity sha512-Kvh+llCS1/DsaRQBTWK860zud1BRIT40SzphLHdFf321q+qbNidkTPnFfEdSD+moMlx/yq5xaV6u0uprZ0Zb9Q==
+"@monoswap-labs/v2-sdk@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@monoswap-labs/v2-sdk/-/v2-sdk-4.0.0.tgz#f40b434f59b0b831ed7550f96f592baeb4e25109"
+  integrity sha512-tIwRxp9Ep+1+/5ABDsBkJBrK/Cd1lAJwYzMkXkEWQ+aZpwQY9M+mDIhQocSAgzJpaYxKGRzadZS3SUwWlukodw==
   dependencies:
     "@ethersproject/address" "^5.0.0"
     "@ethersproject/solidity" "^5.0.0"
-    "@monoswap-labs/sdk-core" "^3.0.0"
+    "@monoswap-labs/sdk-core" "^4.0.0"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@monoswap-labs/v3-sdk@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@monoswap-labs/v3-sdk/-/v3-sdk-3.0.0.tgz#df075009f54f0a9f7ca7f18db5f43bf1121aee64"
-  integrity sha512-uAnSQ3Uyc58+mUIXLUq0caOM+KTBq+jDPOcxFHFXuyBiqxf/gwEOm3RbD2XdzZEYHfTPotX4F2U0fTGSj3zHkg==
+"@monoswap-labs/v3-sdk@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@monoswap-labs/v3-sdk/-/v3-sdk-4.0.0.tgz#353b2090ffdf2302f0ea8888511d47b5dfb28526"
+  integrity sha512-ZyFWnKI9NkA5DhWzIuqz1cUCa6+yqypkipNBE6wcw4JdiL3BRjhVPqzU0M2TCF4O0ePLoNFBRFRY36lcCs7jdw==
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
-    "@monoswap-labs/sdk-core" "^3.0.0"
+    "@monoswap-labs/sdk-core" "^4.0.0"
     "@uniswap/swap-router-contracts" "^1.2.1"
     "@uniswap/v3-periphery" "^1.1.1"
     "@uniswap/v3-staker" "1.0.0"
